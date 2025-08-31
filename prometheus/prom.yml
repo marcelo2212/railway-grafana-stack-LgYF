@@ -11,4 +11,4 @@ scrape_configs:
     metrics_path: /metrics
     static_configs:
       - targets:
-          - 'email-api-golf-battle.railway.internal:8084'   # ajuste para a porta real da API
+          - 'email-api-golf-battle.railway.internal:8085'   # ajuste para a porta real da API
