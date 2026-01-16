@@ -26,3 +26,9 @@ scrape_configs:
     static_configs:
       - targets:
           - 'bucket.railway.internal:8080'
+
+  - job_name: 'user-api'
+    metrics_path: /metrics
+    static_configs:
+      - targets:
+          - 'user-api-dev-desenvolvimento.railway.internal:8084'
