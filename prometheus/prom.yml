@@ -15,7 +15,7 @@ scrape_configs:
 
   - job_name: 'user-api'
     metrics_path: /metrics
-     authorization:
+    authorization:
        type: Bearer
        credentials: 5ea7a26e5b142bde906d6e2c854d395f824d95ac538b3fd08be81d5dbab691d4
     static_configs:
